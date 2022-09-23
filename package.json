@@ -1,34 +1,5 @@
 {
-  "_from": "pentcloud-js-request@^1.0.0",
-  "_id": "pentcloud-js-request@1.3.0",
-  "_inBundle": false,
-  "_integrity": "sha512-IDo6YpAmZ8pqhzeBE8PbXfsz0pZ/dipKRpXMMutV/12VeKJ7q+es5FC6VnCvLhEyXeUhv/HPUjrq9jRzoUqe3w==",
-  "_location": "/pentcloud-js-request",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "pentcloud-js-request@^1.0.0",
-    "name": "pentcloud-js-request",
-    "escapedName": "pentcloud-js-request",
-    "rawSpec": "^1.0.0",
-    "saveSpec": null,
-    "fetchSpec": "^1.0.0"
-  },
-  "_requiredBy": [
-    "/pentcloud-angular-js-request"
-  ],
-  "_resolved": "http://npm.pentcloud.com/pentcloud-js-request/-/pentcloud-js-request-1.3.0.tgz",
-  "_shasum": "f3fd1b58cebafb091a7cc8dd8de1b11ed4661c41",
-  "_spec": "pentcloud-js-request@^1.0.0",
-  "_where": "/Users/diego/pentcloud/localizame-frontend-socket/node_modules/pentcloud-angular-js-request",
-  "author": {
-    "name": "Erick Ruano"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "pentcloud-js-db": "^1.0.2"
-  },
+  "author": "Erick Ruano",
   "deprecated": false,
   "description": "Request class which implements js-db for cache layer. It supports GET, POST, PUT & DELETE methods.",
   "devDependencies": {
@@ -44,14 +15,21 @@
     "run-sequence": "^1.2.2"
   },
   "license": "MIT",
-  "main": "dist/pentcloud-js-request-min.js",
-  "name": "pentcloud-js-request",
+  "main": "dist/js-request-min.js",
+  "name": "@pentcloud/js-request",
   "repository": {
     "type": "git",
-    "url": "https://git.pentcloud.com/erick.ruano/pentcloud-js-request.git"
+    "url": "https://github.com/pentcloud/js-request.git"
   },
   "scripts": {
     "test": "mocha test"
   },
-  "version": "1.3.0"
+  "version": "1.3.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@pentcloud/js-db": "^1.1.0"
+  }
 }
